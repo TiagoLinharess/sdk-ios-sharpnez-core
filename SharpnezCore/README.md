@@ -1,9 +1,5 @@
 # SharpnezCore
 
-![Build Status](https://api.travis-ci.com/TiagoLinharess/SharpnezCore.svg)
-![Platform](https://img.shields.io/cocoapods/p/SharpnezCore.svg?style=flat)
-![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SharpnezCore.svg)
-
 ## What is?
 ### SharpnezCore is a Core module for iOS development. This module provides support codes, is still on the beginning of the development, will have more features soon
 
@@ -17,14 +13,10 @@ $ gem install cocoapods
 
 Frist of all, you need to setup a source propertie in your ``Poffile``
 
-```
-source 'https://github.com/CocoaPods/Specs.git'
-```
-
 After that still in your Pofile file add the following line.
 
 ```
-pod 'SharpnezCore', '~> 1.0.0'
+pod 'SharpnezCore', :git => 'https://github.com/TiagoLinharess/sdk-ios-sharpnez-core.git', :tag => '2.0.0'
 ```
 Then, run the following command:
 
