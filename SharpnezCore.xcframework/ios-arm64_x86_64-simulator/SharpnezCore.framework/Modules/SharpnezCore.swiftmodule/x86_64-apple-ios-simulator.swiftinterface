@@ -12,6 +12,9 @@ extension UIKit.UIImageView {
   @_Concurrency.MainActor(unsafe) public func cornerRadius(radius: CoreFoundation.CGFloat)
   @_Concurrency.MainActor(unsafe) public func load(url: Foundation.URL?)
 }
+extension Swift.Double {
+  public func getMinutes() -> Swift.Int
+}
 public enum CoreError : Swift.Error {
   case genericError
   case parseError
@@ -19,4 +22,10 @@ public enum CoreError : Swift.Error {
   public var message: Swift.String {
     get
   }
+}
+extension Foundation.Date {
+  public static func formattedNowString() -> Swift.String
+}
+extension Swift.String {
+  public func toFormattedDate() -> Foundation.Date?
 }

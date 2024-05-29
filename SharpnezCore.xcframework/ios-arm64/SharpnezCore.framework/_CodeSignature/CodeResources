@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gNlwqGsXlIXLvnVE7ot7W4UGCRY=
+		CYF/lpqILkZli/GTCTtT5GgO7WU=
 		</data>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fzUbP9G/KVvlPGAKgM9KmqIn2Tk=
+		Uk+haT6b5wW12itXMI3ldbFEHas=
 		</data>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fzUbP9G/KVvlPGAKgM9KmqIn2Tk=
+		Uk+haT6b5wW12itXMI3ldbFEHas=
 		</data>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EvjMQun2pFS5z/lt1DHtfJYFPCU=
+		MNmYzpSPMjElri5YX+x5FJG9Wt0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KkRhtMQ8pSTgTAVpNrjJdHkVuzWybUomSojMyFCDpiU=
+			CWC562uPZYfhHbvJ0w5pgwxRq5TQNvWp2zY4oqe0HS8=
 			</data>
 		</dict>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aaKbjt6SODrxliSOIfh2N4kJLcipD7eyX2AgttBqdxQ=
+			OulnXgG7SvdVIG7DL4SnoKROQewPpcQiyWJPB47Niw0=
 			</data>
 		</dict>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aaKbjt6SODrxliSOIfh2N4kJLcipD7eyX2AgttBqdxQ=
+			OulnXgG7SvdVIG7DL4SnoKROQewPpcQiyWJPB47Niw0=
 			</data>
 		</dict>
 		<key>Modules/SharpnezCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BP1kNdH5T1rkKlWbUzddDVIP9U/K+8eUQ9vruH0Ck5k=
+			yBa6q58T8ifTAWoanA+j2HATrGdQqH16bx8qof1OMak=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
