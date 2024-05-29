@@ -10,4 +10,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.8.1'
   spec.vendored_frameworks = 'SharpnezCore.xcframework'
   spec.framework    = 'SystemConfiguration'
+  spec.subspec "Debug" do |debug|
+    debug.source_files = "SharpnezCore/SharpnezCore/**/*.swift"
+  end
 end
