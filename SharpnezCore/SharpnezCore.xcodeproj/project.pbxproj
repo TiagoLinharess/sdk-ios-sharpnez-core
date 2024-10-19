@@ -15,10 +15,6 @@
 		ED0A66CF2BE066AE00ED3355 /* CoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66C82BE066AE00ED3355 /* CoreConstants.swift */; };
 		ED0A66D02BE066AE00ED3355 /* UIImageView+Core+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66CA2BE066AE00ED3355 /* UIImageView+Core+extensions.swift */; };
 		ED0A66D12BE066AE00ED3355 /* CoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66CC2BE066AE00ED3355 /* CoreError.swift */; };
-		ED0A66DB2BE066B600ED3355 /* UIImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66D42BE066B600ED3355 /* UIImageViewTests.swift */; };
-		ED0A66DC2BE066B600ED3355 /* test_snapshot_success.1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A66D72BE066B600ED3355 /* test_snapshot_success.1.png */; };
-		ED0A66DD2BE066B600ED3355 /* test_snapshot_error.1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0A66D82BE066B600ED3355 /* test_snapshot_error.1.png */; };
-		ED0A66DE2BE066B600ED3355 /* CoreErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66DA2BE066B600ED3355 /* CoreErrorTests.swift */; };
 		ED3C1BAB2BFF831C00E3603E /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C1BAA2BFF831C00E3603E /* Date+extensions.swift */; };
 		ED3C1BAD2BFF848800E3603E /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C1BAC2BFF848800E3603E /* String+extensions.swift */; };
 		ED3C1BAF2BFF851A00E3603E /* TimeInterval+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C1BAE2BFF851A00E3603E /* TimeInterval+extensions.swift */; };
@@ -48,10 +44,6 @@
 		ED0A66C82BE066AE00ED3355 /* CoreConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreConstants.swift; sourceTree = "<group>"; };
 		ED0A66CA2BE066AE00ED3355 /* UIImageView+Core+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Core+extensions.swift"; sourceTree = "<group>"; };
 		ED0A66CC2BE066AE00ED3355 /* CoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreError.swift; sourceTree = "<group>"; };
-		ED0A66D42BE066B600ED3355 /* UIImageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewTests.swift; sourceTree = "<group>"; };
-		ED0A66D72BE066B600ED3355 /* test_snapshot_success.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_snapshot_success.1.png; sourceTree = "<group>"; };
-		ED0A66D82BE066B600ED3355 /* test_snapshot_error.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_snapshot_error.1.png; sourceTree = "<group>"; };
-		ED0A66DA2BE066B600ED3355 /* CoreErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreErrorTests.swift; sourceTree = "<group>"; };
 		ED3C1BAA2BFF831C00E3603E /* Date+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
 		ED3C1BAC2BFF848800E3603E /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
 		ED3C1BAE2BFF851A00E3603E /* TimeInterval+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+extensions.swift"; sourceTree = "<group>"; };
@@ -130,7 +122,6 @@
 		ED0A66B72BE0662300ED3355 /* SharpnezCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED0A66D22BE066B600ED3355 /* Source */,
 			);
 			path = SharpnezCoreTests;
 			sourceTree = "<group>";
@@ -177,49 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				ED0A66CC2BE066AE00ED3355 /* CoreError.swift */,
-			);
-			path = Error;
-			sourceTree = "<group>";
-		};
-		ED0A66D22BE066B600ED3355 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				ED0A66D32BE066B600ED3355 /* UIImageView */,
-				ED0A66D92BE066B600ED3355 /* Error */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		ED0A66D32BE066B600ED3355 /* UIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				ED0A66D42BE066B600ED3355 /* UIImageViewTests.swift */,
-				ED0A66D52BE066B600ED3355 /* __Snapshots__ */,
-			);
-			path = UIImageView;
-			sourceTree = "<group>";
-		};
-		ED0A66D52BE066B600ED3355 /* __Snapshots__ */ = {
-			isa = PBXGroup;
-			children = (
-				ED0A66D62BE066B600ED3355 /* UIImageViewTests */,
-			);
-			path = __Snapshots__;
-			sourceTree = "<group>";
-		};
-		ED0A66D62BE066B600ED3355 /* UIImageViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				ED0A66D72BE066B600ED3355 /* test_snapshot_success.1.png */,
-				ED0A66D82BE066B600ED3355 /* test_snapshot_error.1.png */,
-			);
-			path = UIImageViewTests;
-			sourceTree = "<group>";
-		};
-		ED0A66D92BE066B600ED3355 /* Error */ = {
-			isa = PBXGroup;
-			children = (
-				ED0A66DA2BE066B600ED3355 /* CoreErrorTests.swift */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -326,8 +274,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0A66DC2BE066B600ED3355 /* test_snapshot_success.1.png in Resources */,
-				ED0A66DD2BE066B600ED3355 /* test_snapshot_error.1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,8 +362,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0A66DB2BE066B600ED3355 /* UIImageViewTests.swift in Sources */,
-				ED0A66DE2BE066B600ED3355 /* CoreErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +569,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C9FB7EB60DCEF4E8C29162E /* Pods-SharpnezCore-SharpnezCoreTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9Y7M54NCKD;
@@ -643,7 +586,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD9CECF1A0B1424244A16ED6 /* Pods-SharpnezCore-SharpnezCoreTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9Y7M54NCKD;
