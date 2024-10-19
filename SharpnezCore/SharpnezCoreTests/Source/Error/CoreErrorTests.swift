@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SDKCore
+@testable import SharpnezCore
 
 final class CoreErrorTests: XCTestCase {
 

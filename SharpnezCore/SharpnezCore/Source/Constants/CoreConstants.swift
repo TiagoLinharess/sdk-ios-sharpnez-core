@@ -7,11 +7,11 @@
 
 import Foundation
 
-// MARK: - Constants
+// MARK: - Constants -
 
 enum CoreConstants {
     
-    // MARK: - UIKit
+    // MARK: - UIKit -
     
     /// UIKit Constants.
     enum UIKit {
@@ -21,7 +21,7 @@ enum CoreConstants {
         static let defaultURLImageName: String = "exclamationmark.octagon"
     }
     
-    // MARK: - Core Error
+    // MARK: - Core Error -
     
     enum CoreError {
         

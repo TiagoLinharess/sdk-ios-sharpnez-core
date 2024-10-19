@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - Api Error
+// MARK: - Api Error -
 
 public enum CoreError: Error {
     
@@ -24,7 +24,7 @@ public enum CoreError: Error {
     /// message value: param String value.
     case customError(String)
     
-    // MARK: - Public Properties
+    // MARK: - Public Properties -
     
     /// ApiError Message.
     public var message: String {

@@ -7,7 +7,7 @@
 
 import SnapshotTesting
 import XCTest
-@testable import SDKCore
+@testable import SharpnezCore
 
 final class UIImageViewTests: XCTestCase {
     
@@ -29,7 +29,7 @@ final class UIImageViewTests: XCTestCase {
         sut.cornerRadius(radius: 32.00)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            assertSnapshot(matching: self.sut, as: .image)
+            assertSnapshot(matching: self.sut, as: .image, record: true)
             self.imageExpectation.fulfill()
         }
         
