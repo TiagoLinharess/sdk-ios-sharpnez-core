@@ -11,7 +11,12 @@ public extension String {
     
     func toFormattedDate() -> Date? {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyyMMdd, HH:mm", options: 0, locale: .current)
+        dateFormatter.dateFormat = DateFormatter
+            .dateFormat(
+                fromTemplate: "yyyyMMdd, HH:mm",
+                options: 0,
+                locale: .current
+            )
         
         return dateFormatter.date(from: self)
     }
