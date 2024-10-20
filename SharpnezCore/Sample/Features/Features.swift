@@ -14,4 +14,8 @@ enum Features {
     // MARK: - UIImageView -
     
     enum UIImageView {}
+    
+    // MARK: - Date -
+    
+    enum Date {}
 }

@@ -30,11 +30,11 @@ extension Features.Home {
         // MARK: - Samples -
         
         func navigate(to sample: Sample) {
-            var viewController: UIViewController
-            
-            switch sample {
+            let viewController: UIViewController = switch sample {
             case .imageView:
-                viewController = Features.UIImageView.build()
+                Features.UIImageView.build()
+            case .date:
+                Features.Date.build()
             }
             
             navigationController.pushViewController(viewController, animated: true)

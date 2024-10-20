@@ -19,7 +19,7 @@ extension Features.Home {
         // MARK: - Properties -
         
         var onSelectSample: ((Sample) -> Void)?
-        let samples: [Sample] = [.imageView]
+        let samples: [Sample] = Sample.allCases
         
         // MARK: - Public Methods -
         
