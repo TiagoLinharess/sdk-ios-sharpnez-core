@@ -12,7 +12,7 @@ extension Features.UIImageView {
     final class ViewController: UIViewController {
         // MARK: - Properties -
         
-        private let imageView: UIImageView = UIImageView()
+        private lazy var imageView: UIImageView = UIImageView()
     }
 }
 

@@ -18,4 +18,12 @@ enum Features {
     // MARK: - Date -
     
     enum Date {}
+    
+    // MARK: - String -
+    
+    enum String {}
+    
+    // MARK: - TimeInterval -
+    
+    enum TimeInterval {}
 }

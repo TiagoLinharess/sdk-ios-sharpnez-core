@@ -14,8 +14,10 @@ build/
 DerivedData/
 Pods/
 Pods.xcodeproj
-Pofile.lock
+Podfile.lock
 .DS_Store
+/.DS_Store
+SharpnezCore/SharpnezCoreTests/.DS_Store
 *.moved-aside
 *.pbxuser
 !default.pbxuser

@@ -20,7 +20,7 @@ extension Features.Date {
         
         private lazy var formattedDateLabel: UILabel = {
             let label = UILabel()
-            label.text = "Formatted Date: " +  Date.formattedNowString()
+            label.text = "Formatted Date: " + Date.formattedNowString()
             return label
         }()
     }

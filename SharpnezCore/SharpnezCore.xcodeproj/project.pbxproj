@@ -33,6 +33,10 @@
 		EDD3B3C52CC59C4600B964DC /* UIImageView.Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3C42CC59C3F00B964DC /* UIImageView.Builder.swift */; };
 		EDD3B3C82CC5A19A00B964DC /* Date.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3C72CC5A19100B964DC /* Date.ViewController.swift */; };
 		EDD3B3CA2CC5A53D00B964DC /* Date.Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3C92CC5A53700B964DC /* Date.Builder.swift */; };
+		EDD3B3CD2CC6E87F00B964DC /* String.Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3CC2CC6E87500B964DC /* String.Builder.swift */; };
+		EDD3B3CF2CC6E8BA00B964DC /* String.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3CE2CC6E8B300B964DC /* String.ViewController.swift */; };
+		EDD3B3D22CC6F48200B964DC /* TimeInterval.Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3D12CC6F47900B964DC /* TimeInterval.Builder.swift */; };
+		EDD3B3D42CC6F49200B964DC /* TimeInterval.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3D32CC6F49200B964DC /* TimeInterval.ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,10 @@
 		EDD3B3C42CC59C3F00B964DC /* UIImageView.Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.Builder.swift; sourceTree = "<group>"; };
 		EDD3B3C72CC5A19100B964DC /* Date.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.ViewController.swift; sourceTree = "<group>"; };
 		EDD3B3C92CC5A53700B964DC /* Date.Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.Builder.swift; sourceTree = "<group>"; };
+		EDD3B3CC2CC6E87500B964DC /* String.Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.Builder.swift; sourceTree = "<group>"; };
+		EDD3B3CE2CC6E8B300B964DC /* String.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.ViewController.swift; sourceTree = "<group>"; };
+		EDD3B3D12CC6F47900B964DC /* TimeInterval.Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.Builder.swift; sourceTree = "<group>"; };
+		EDD3B3D32CC6F49200B964DC /* TimeInterval.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +254,8 @@
 		EDD3B3AF2CC41B2E00B964DC /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				EDD3B3D02CC6F46600B964DC /* TimeInterval */,
+				EDD3B3CB2CC6E86900B964DC /* String */,
 				EDD3B3C62CC5A15E00B964DC /* Date */,
 				EDD3B3C12CC5974800B964DC /* UIImageView */,
 				EDD3B3AD2CC41B2E00B964DC /* Home */,
@@ -287,6 +297,24 @@
 				EDD3B3C72CC5A19100B964DC /* Date.ViewController.swift */,
 			);
 			path = Date;
+			sourceTree = "<group>";
+		};
+		EDD3B3CB2CC6E86900B964DC /* String */ = {
+			isa = PBXGroup;
+			children = (
+				EDD3B3CC2CC6E87500B964DC /* String.Builder.swift */,
+				EDD3B3CE2CC6E8B300B964DC /* String.ViewController.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		EDD3B3D02CC6F46600B964DC /* TimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				EDD3B3D12CC6F47900B964DC /* TimeInterval.Builder.swift */,
+				EDD3B3D32CC6F49200B964DC /* TimeInterval.ViewController.swift */,
+			);
+			path = TimeInterval;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -519,16 +547,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD3B3CA2CC5A53D00B964DC /* Date.Builder.swift in Sources */,
+				EDD3B3CD2CC6E87F00B964DC /* String.Builder.swift in Sources */,
+				EDD3B3D42CC6F49200B964DC /* TimeInterval.ViewController.swift in Sources */,
 				EDD3B3C32CC5981700B964DC /* UIImageView.ViewController.swift in Sources */,
 				EDD3B3C52CC59C4600B964DC /* UIImageView.Builder.swift in Sources */,
 				EDD3B3C82CC5A19A00B964DC /* Date.ViewController.swift in Sources */,
 				EDD3B3C02CC595EB00B964DC /* Home.Builder.swift in Sources */,
+				EDD3B3D22CC6F48200B964DC /* TimeInterval.Builder.swift in Sources */,
 				EDD3B3B42CC41B2E00B964DC /* AppDelegate.swift in Sources */,
 				EDD3B3BD2CC41CF400B964DC /* Home+Sample.swift in Sources */,
 				EDD3B3B52CC41B2E00B964DC /* SceneDelegate.swift in Sources */,
 				EDD3B3B62CC41B2E00B964DC /* Home.Coordinator.swift in Sources */,
 				EDD3B3B72CC41B2E00B964DC /* Home.ViewController.swift in Sources */,
 				EDD3B3BB2CC41C2500B964DC /* Home.ViewModel.swift in Sources */,
+				EDD3B3CF2CC6E8BA00B964DC /* String.ViewController.swift in Sources */,
 				EDD3B3B82CC41B2E00B964DC /* Features.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,6 +35,10 @@ extension Features.Home {
                 Features.UIImageView.build()
             case .date:
                 Features.Date.build()
+            case .string:
+                Features.String.build()
+            case .timeInterval:
+                Features.TimeInterval.build()
             }
             
             navigationController.pushViewController(viewController, animated: true)
