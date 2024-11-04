@@ -1,4 +1,0 @@
-framework module SharpnezCore {
-  header "SharpnezCore-Swift.h"
-  requires objc
-}
