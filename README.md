@@ -16,7 +16,7 @@ Frist of all, you need to setup a source propertie in your ``Poffile``
 After that still in your Pofile file add the following line.
 
 ```
-pod 'SharpnezCore', :git => 'https://github.com/TiagoLinharess/sdk-ios-sharpnez-core.git', :tag => '2.0.0'
+pod 'SharpnezCore', :git => 'https://github.com/TiagoLinharess/sdk-ios-sharpnez-core.git', :tag => '3.0.0'
 ```
 Then, run the following command:
 
