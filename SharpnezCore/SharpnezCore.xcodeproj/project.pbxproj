@@ -37,6 +37,10 @@
 		EDD3B3CF2CC6E8BA00B964DC /* String.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3CE2CC6E8B300B964DC /* String.ViewController.swift */; };
 		EDD3B3D22CC6F48200B964DC /* TimeInterval.Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3D12CC6F47900B964DC /* TimeInterval.Builder.swift */; };
 		EDD3B3D42CC6F49200B964DC /* TimeInterval.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3D32CC6F49200B964DC /* TimeInterval.ViewController.swift */; };
+		EDD3B3D62CC6F92D00B964DC /* CoreDateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3D52CC6F92400B964DC /* CoreDateFormat.swift */; };
+		EDD3B3D72CC6FE3200B964DC /* SharpnezCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0A66A92BE0662300ED3355 /* SharpnezCore.framework */; };
+		EDD3B3D82CC6FE3200B964DC /* SharpnezCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED0A66A92BE0662300ED3355 /* SharpnezCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDD3B3DD2CD9365D00B964DC /* String.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3DC2CD9365700B964DC /* String.View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +51,28 @@
 			remoteGlobalIDString = ED0A66A82BE0662300ED3355;
 			remoteInfo = SharpnezCore;
 		};
+		EDD3B3D92CC6FE3200B964DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0A66A02BE0662300ED3355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0A66A82BE0662300ED3355;
+			remoteInfo = SharpnezCore;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD3B3DB2CC6FE3200B964DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EDD3B3D82CC6FE3200B964DC /* SharpnezCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		448270D0619DBF60D38352C8 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +114,8 @@
 		EDD3B3CE2CC6E8B300B964DC /* String.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.ViewController.swift; sourceTree = "<group>"; };
 		EDD3B3D12CC6F47900B964DC /* TimeInterval.Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.Builder.swift; sourceTree = "<group>"; };
 		EDD3B3D32CC6F49200B964DC /* TimeInterval.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.ViewController.swift; sourceTree = "<group>"; };
+		EDD3B3D52CC6F92400B964DC /* CoreDateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDateFormat.swift; sourceTree = "<group>"; };
+		EDD3B3DC2CD9365700B964DC /* String.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD3B3D72CC6FE3200B964DC /* SharpnezCore.framework in Frameworks */,
 				D81E263B501AD665F53B6E6C /* Pods_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +231,7 @@
 		ED0A66C72BE066AE00ED3355 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				EDD3B3D52CC6F92400B964DC /* CoreDateFormat.swift */,
 				ED0A66C82BE066AE00ED3355 /* CoreConstants.swift */,
 			);
 			path = Constants;
@@ -302,6 +331,7 @@
 		EDD3B3CB2CC6E86900B964DC /* String */ = {
 			isa = PBXGroup;
 			children = (
+				EDD3B3DC2CD9365700B964DC /* String.View.swift */,
 				EDD3B3CC2CC6E87500B964DC /* String.Builder.swift */,
 				EDD3B3CE2CC6E8B300B964DC /* String.ViewController.swift */,
 			);
@@ -340,10 +370,12 @@
 				ED0673522CC400EB00F4C188 /* Frameworks */,
 				ED0673532CC400EB00F4C188 /* Resources */,
 				BE3F6B247A56DDF49FBE9E81 /* [CP] Embed Pods Frameworks */,
+				EDD3B3DB2CC6FE3200B964DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EDD3B3DA2CC6FE3200B964DC /* PBXTargetDependency */,
 			);
 			name = Sample;
 			productName = Sample;
@@ -558,6 +590,7 @@
 				EDD3B3BD2CC41CF400B964DC /* Home+Sample.swift in Sources */,
 				EDD3B3B52CC41B2E00B964DC /* SceneDelegate.swift in Sources */,
 				EDD3B3B62CC41B2E00B964DC /* Home.Coordinator.swift in Sources */,
+				EDD3B3DD2CD9365D00B964DC /* String.View.swift in Sources */,
 				EDD3B3B72CC41B2E00B964DC /* Home.ViewController.swift in Sources */,
 				EDD3B3BB2CC41C2500B964DC /* Home.ViewModel.swift in Sources */,
 				EDD3B3CF2CC6E8BA00B964DC /* String.ViewController.swift in Sources */,
@@ -571,6 +604,7 @@
 			files = (
 				ED0A66D02BE066AE00ED3355 /* UIImageView+extensions.swift in Sources */,
 				ED3C1BAF2BFF851A00E3603E /* TimeInterval+extensions.swift in Sources */,
+				EDD3B3D62CC6F92D00B964DC /* CoreDateFormat.swift in Sources */,
 				ED0A66D12BE066AE00ED3355 /* CoreError.swift in Sources */,
 				ED0A66CF2BE066AE00ED3355 /* CoreConstants.swift in Sources */,
 				ED3C1BAB2BFF831C00E3603E /* Date+extensions.swift in Sources */,
@@ -593,6 +627,11 @@
 			isa = PBXTargetDependency;
 			target = ED0A66A82BE0662300ED3355 /* SharpnezCore */;
 			targetProxy = ED0A66B52BE0662300ED3355 /* PBXContainerItemProxy */;
+		};
+		EDD3B3DA2CC6FE3200B964DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0A66A82BE0662300ED3355 /* SharpnezCore */;
+			targetProxy = EDD3B3D92CC6FE3200B964DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -7,6 +7,6 @@
 
 extension Features.String {
     static func build() -> ViewController {
-        return ViewController()
+        return ViewController(rootView: ContentView())
     }
 }

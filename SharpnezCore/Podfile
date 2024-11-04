@@ -18,5 +18,4 @@ target 'SharpnezCore' do
   target 'SharpnezCoreTests' do
     # Pods for testing
   end
-
 end
