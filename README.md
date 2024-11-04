@@ -1,7 +1,7 @@
 # SharpnezCore
 
 ## What is?
-### SharpnezCore is a Core module for iOS development. This module provides support codes, is still on the beginning of the development, will have more features soon
+### SharpnezCore is a Core module for iOS development. This module provides support codes for Strings, Dates, Errors and more.
 
 ## Installing via cocoapods
 
