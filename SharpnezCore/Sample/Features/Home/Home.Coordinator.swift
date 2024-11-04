@@ -39,6 +39,8 @@ extension Features.Home {
                 Features.String.build()
             case .timeInterval:
                 Features.TimeInterval.build()
+            case .error:
+                Features.Error.build()
             }
             
             navigationController.pushViewController(viewController, animated: true)

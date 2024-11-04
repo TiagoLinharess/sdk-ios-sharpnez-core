@@ -26,4 +26,8 @@ enum Features {
     // MARK: - TimeInterval -
     
     enum TimeInterval {}
+    
+    // MARK: - Error -
+    
+    enum Error {}
 }

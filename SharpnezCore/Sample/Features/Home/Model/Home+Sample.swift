@@ -11,6 +11,7 @@ extension Features.Home {
         case date
         case string
         case timeInterval
+        case error
         
         var title: String {
             switch self {
@@ -18,6 +19,7 @@ extension Features.Home {
             case .date: return "Date + Extensions"
             case .string: return "String + Extensions"
             case .timeInterval: return "TimeInterval + Extensions"
+            case .error: return "Error"
             }
         }
     }

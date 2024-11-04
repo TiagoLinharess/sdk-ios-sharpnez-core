@@ -54,6 +54,7 @@ extension Features.TimeInterval.ViewController {
     
     private func setupView() {
         view.backgroundColor = .systemBackground
+        title = "TimeInterval + Extensions"
     }
     
     private func setupHierarchy() {

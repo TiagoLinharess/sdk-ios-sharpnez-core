@@ -20,7 +20,7 @@ extension Features.Date {
         
         private lazy var formattedDateLabel: UILabel = {
             let label = UILabel()
-            label.text = "Formatted Date: " + Date.formattedNowString()
+            label.text = "Formatted Date: " + (Date().toString() ?? "Date not formatted")
             return label
         }()
     }
@@ -44,6 +44,7 @@ extension Features.Date.ViewController {
     
     private func setupView() {
         view.backgroundColor = .systemBackground
+        title = "Date + Extensions"
     }
     
     private func setupHierarchy() {

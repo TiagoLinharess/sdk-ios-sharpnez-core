@@ -42,7 +42,7 @@ extension Features.UIImageView.ViewController {
     }
     
     private func setupView() {
-        title = "UIImageView from url"
+        title = "UIImageView + Extensions"
         view.backgroundColor = .gray
     }
     
