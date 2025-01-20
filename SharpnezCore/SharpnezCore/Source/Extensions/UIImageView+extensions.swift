@@ -9,7 +9,7 @@ import UIKit
 
 extension UIImageView {
     
-    // MARK: - Corner Radius -
+    // MARK: Corner Radius
 
     /// Make image rounded
     public func cornerRadius(radius: CGFloat) {
@@ -17,7 +17,7 @@ extension UIImageView {
         self.layer.cornerRadius = radius
     }
     
-    // MARK: - URL Image View -
+    // MARK: URL Image View
     
     /// Transforms URL in to UIImageView
     public func load(url: URL?) {

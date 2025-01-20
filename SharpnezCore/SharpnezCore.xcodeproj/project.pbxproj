@@ -42,6 +42,7 @@
 		EDD3B3DD2CD9365D00B964DC /* String.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3DC2CD9365700B964DC /* String.View.swift */; };
 		EDD3B3E02CD9518000B964DC /* Error.Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3DF2CD9517900B964DC /* Error.Builder.swift */; };
 		EDD3B3E22CD951E600B964DC /* Error.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B3E12CD951E100B964DC /* Error.View.swift */; };
+		F1F9F1C32D3EE9A0004EA3B1 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9F1C22D3EE994004EA3B1 /* Bindable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 		EDD3B3DC2CD9365700B964DC /* String.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.View.swift; sourceTree = "<group>"; };
 		EDD3B3DF2CD9517900B964DC /* Error.Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.Builder.swift; sourceTree = "<group>"; };
 		EDD3B3E12CD951E100B964DC /* Error.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.View.swift; sourceTree = "<group>"; };
+		F1F9F1C22D3EE994004EA3B1 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		ED0A66C62BE066AE00ED3355 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F1F9F1C12D3EE986004EA3B1 /* Bindable */,
 				ED0A66C72BE066AE00ED3355 /* Constants */,
 				ED0A66C92BE066AE00ED3355 /* Extensions */,
 				ED0A66CB2BE066AE00ED3355 /* Error */,
@@ -356,6 +359,14 @@
 				EDD3B3DF2CD9517900B964DC /* Error.Builder.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		F1F9F1C12D3EE986004EA3B1 /* Bindable */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9F1C22D3EE994004EA3B1 /* Bindable.swift */,
+			);
+			path = Bindable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -622,6 +633,7 @@
 				ED3C1BAB2BFF831C00E3603E /* Date+extensions.swift in Sources */,
 				ED3C1BAD2BFF848800E3603E /* String+extensions.swift in Sources */,
 				ED0A66CE2BE066AE00ED3355 /* SDKCore.docc in Sources */,
+				F1F9F1C32D3EE9A0004EA3B1 /* Bindable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

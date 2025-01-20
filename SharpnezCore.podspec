@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/TiagoLinharess/sdk-ios-sharpnez-core.git', :tag => '3.0.0' }
   spec.platforms    = { :ios => "18.0" }
   spec.swift_version = '5.8.1'
-  spec.source_files = 'SharpnezCore/**/*.swift'
+  spec.source_files = 'SharpnezCore/SharpnezCore/**/*.swift'
   spec.framework    = 'SystemConfiguration'
 end
