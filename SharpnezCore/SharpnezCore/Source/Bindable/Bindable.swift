@@ -18,7 +18,9 @@ public final class Bindable<T> {
     private var listener: Listener?
     public var value: T {
         didSet {
-            listener?(value)
+            DispatchQueue.main.async {
+                self.listener?(self.value)
+            }
         }
     }
     
@@ -32,6 +34,8 @@ public final class Bindable<T> {
     
     public func bind(to listener: Listener?) {
         self.listener = listener
-        listener?(value)
+        DispatchQueue.main.async {
+            listener?(self.value)
+        }
     }
 }
