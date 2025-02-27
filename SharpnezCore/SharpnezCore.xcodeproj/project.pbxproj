@@ -11,7 +11,6 @@
 		ED0A66CD2BE066AE00ED3355 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0A66C42BE066AE00ED3355 /* SDKCore.h */; };
 		ED0A66CE2BE066AE00ED3355 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66C52BE066AE00ED3355 /* SDKCore.docc */; };
 		ED0A66CF2BE066AE00ED3355 /* CoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66C82BE066AE00ED3355 /* CoreConstants.swift */; };
-		ED0A66D02BE066AE00ED3355 /* UIImageView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66CA2BE066AE00ED3355 /* UIImageView+extensions.swift */; };
 		ED0A66D12BE066AE00ED3355 /* CoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A66CC2BE066AE00ED3355 /* CoreError.swift */; };
 		ED3C1BAB2BFF831C00E3603E /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C1BAA2BFF831C00E3603E /* Date+extensions.swift */; };
 		ED3C1BAD2BFF848800E3603E /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C1BAC2BFF848800E3603E /* String+extensions.swift */; };
@@ -36,7 +35,6 @@
 		ED0A66C42BE066AE00ED3355 /* SDKCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED0A66C52BE066AE00ED3355 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
 		ED0A66C82BE066AE00ED3355 /* CoreConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreConstants.swift; sourceTree = "<group>"; };
-		ED0A66CA2BE066AE00ED3355 /* UIImageView+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+extensions.swift"; sourceTree = "<group>"; };
 		ED0A66CC2BE066AE00ED3355 /* CoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreError.swift; sourceTree = "<group>"; };
 		ED3C1BAA2BFF831C00E3603E /* Date+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
 		ED3C1BAC2BFF848800E3603E /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 		ED0A66C92BE066AE00ED3355 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				ED0A66CA2BE066AE00ED3355 /* UIImageView+extensions.swift */,
 				ED3C1BAA2BFF831C00E3603E /* Date+extensions.swift */,
 				ED3C1BAC2BFF848800E3603E /* String+extensions.swift */,
 				ED3C1BAE2BFF851A00E3603E /* TimeInterval+extensions.swift */,
@@ -271,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0A66D02BE066AE00ED3355 /* UIImageView+extensions.swift in Sources */,
 				ED3C1BAF2BFF851A00E3603E /* TimeInterval+extensions.swift in Sources */,
 				EDD3B3D62CC6F92D00B964DC /* CoreDateFormat.swift in Sources */,
 				ED0A66D12BE066AE00ED3355 /* CoreError.swift in Sources */,
