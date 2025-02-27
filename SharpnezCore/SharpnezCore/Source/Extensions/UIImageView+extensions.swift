@@ -5,6 +5,7 @@
 //  Created by Tiago Linhares on 06/07/23.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 extension UIImageView {
@@ -40,3 +41,5 @@ extension UIImageView {
         }
     }
 }
+
+#endif
